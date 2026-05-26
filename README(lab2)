@@ -1,0 +1,31 @@
+# Lab 2: VHDL Code for Realizing Logic Gates
+## Objective
+- To write VHDL code for basic logic gates: AND, OR, NOT, NAND, NOR, XOR, and XNOR.  
+- To simulate each logic gate and verify its truth table using GHDL and GTKWave.  
+- To understand the implementation of Boolean logic using VHDL dataflow modeling.
+
+## Theory
+Logic gates are the fundamental building blocks of digital systems. They perform basic Boolean operations on binary inputs to produce a single binary output.
+In VHDL, logic gates are implemented using built-in logical operators provided by the IEEE library.
+
+### VHDL Logic Operations
+- **AND** → `Y = A and B`
+- **OR** → `Y = A or B`
+- **NOT** → `Y = not A`
+- **NAND** → `Y = not (A and B)`
+- **NOR** → `Y = not (A or B)`
+- **XOR** → `Y = A xor B`
+- **XNOR** → `Y = A xnor B`
+
+### VHDL Design Style
+In this lab, **dataflow modeling** is used. It describes how signals flow through the circuit using concurrent statements such as:
+```vhdl
+Y <= A and B;
+
+## OutPut
+![GTKWave Output](lab2output.png)
+
+## Discussion and Conclusion
+In this lab, basic logic gates including AND, OR, NOT, NAND, NOR, XOR, and XNOR were successfully implemented using VHDL dataflow modeling. Each gate was designed using simple concurrent signal assignment statements, which allowed the behavior of digital logic circuits to be represented directly in hardware description form.
+A combined testbench was created to simulate all gates simultaneously by applying all possible input combinations. The simulation was carried out using GHDL, and the resulting waveforms were observed in GTKWave. The output signals matched the expected truth table values for all logic operations, confirming the correctness of the design and implementation.
+From this experiment, it is concluded that VHDL provides an efficient and accurate way to model and verify digital logic circuits before hardware implementation. The use of simulation tools such as GHDL and GTKWave helps in validating circuit behavior, reducing design errors, and improving understanding of digital system design principles.
