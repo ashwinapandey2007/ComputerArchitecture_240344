@@ -1,0 +1,13 @@
+v 4
+file . "demuxtb.vhd" "0c11388b341c510d7ddb69ec28d955c1b80b1e27" "20260624045336.498":
+  entity demux_tb at 1( 0) + 0 on 17;
+  architecture simulation of demux_tb at 7( 91) + 0 on 18;
+file . "muxtb.vhd" "8387b26b48c179a24218d5cf4d650a93232f9acf" "20260624044922.072":
+  entity mux_tb at 1( 0) + 0 on 13;
+  architecture simulation of mux_tb at 7( 87) + 0 on 14;
+file . "mux4to1.vhd" "d8fde4decf0daaeb84964a36083cb4c6549976a4" "20260624044859.623":
+  entity mux_4to1 at 1( 0) + 0 on 11;
+  architecture behavioral of mux_4to1 at 12( 295) + 0 on 12;
+file . "demux1to4.vhd" "cb8a90238cb3d5df2c9fb012db55eb84c29523da" "20260624045323.615":
+  entity demux_1to4 at 1( 0) + 0 on 15;
+  architecture behavioral of demux_1to4 at 12( 267) + 0 on 16;
