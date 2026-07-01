@@ -50,10 +50,6 @@ gtkwave comparator.vcd
 | 11 | 10 | 0  | 1  | 0  |
 | 11 | 11 | 1  | 0  | 0  |
 
-### Screenshot
-
-*Insert the GTKWave simulation screenshot here.*
-
 ## Discussion and Conclusion
 
 The 2-bit magnitude comparator was successfully designed and simulated using VHDL. The circuit correctly generated the EQ, GT, and LT outputs for all test cases. The simulation results matched the expected truth table, confirming the correctness of the Boolean logic implementation.
