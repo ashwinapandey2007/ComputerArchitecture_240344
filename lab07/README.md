@@ -102,47 +102,13 @@ if rising_edge(CLK) then
     end if;
 end if;
 ```
-
----
-
-## Simulation Commands
-
-### Analyze
-
-```bash
-ghdl -a sr_ff.vhd d_ff.vhd jk_ff.vhd t_ff.vhd ff_tb.vhd
-```
-
-### Elaborate
-
-```bash
-ghdl -e FF_TB
-```
-
-### Run Simulation
-
-```bash
-ghdl -r FF_TB --vcd=flipflops.vcd
-```
-
-### Open GTKWave
-
-```bash
-gtkwave flipflops.vcd
-```
-
 ---
 
 # Output
 
 ## Flip-Flops Waveform
 
-
-
-Example folder structure:
-
-```
-[Flip-Flops Waveform](output.PNG)
+![Flip-Flops Waveform](output.PNG)
 ---
 
 # Discussion
