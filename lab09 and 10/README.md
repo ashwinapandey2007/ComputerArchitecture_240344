@@ -1,4 +1,4 @@
-#Lab: 09 & 10**
+# Lab: 09 & 10**
 
 # Lab Title
 
@@ -23,6 +23,7 @@ The Non-Restoring Division Algorithm is an efficient binary division technique u
 
 # Output 
 ![Booths Algorithm Output](boothoutput.PNG)
+![Non-Restoring Division  Output](nonresoutput.PNG)
 
 
 # Discussion and Conclusion
