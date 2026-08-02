@@ -1,4 +1,4 @@
-# Lab: 09 & 10**
+# Lab: 09 & 10
 
 # Lab Title
 
