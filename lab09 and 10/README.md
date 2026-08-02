@@ -1,7 +1,4 @@
-```markdown
-# Lab Number
-
-**Lab No.: 09 & 10**
+#Lab: 09 & 10**
 
 # Lab Title
 
@@ -33,4 +30,4 @@ The Non-Restoring Division Algorithm is an efficient binary division technique u
 Both algorithms were successfully implemented using Python. Booth's Multiplication Algorithm efficiently performs signed binary multiplication by reducing unnecessary addition and subtraction operations. The Non-Restoring Division Algorithm performs binary division without restoring the accumulator after every subtraction, making it more efficient than the restoring division algorithm.
 
 The implementation of both algorithms helped in understanding binary arithmetic operations used in computer architecture. The results obtained from the programs matched the expected outputs for valid inputs, confirming the correctness of the implementation.
-```
+
